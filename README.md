@@ -38,3 +38,13 @@ The Logistic Regression model achieved the following performance metrics:
 2. Ensure you have the required dependencies installed:
    ```bash
    pip install numpy pandas nltk scikit-learn
+
+Download the required NLTK stopwords:
+import nltk
+nltk.download('stopwords')
+
+Run the Jupyter Notebook to train the model, or load the saved model to make predictions on new text:
+import pickle
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
+# Note: Ensure new text is preprocessed and transformed using the fitted TF-IDF vectorizer before prediction.
+
