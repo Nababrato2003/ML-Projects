@@ -1,2 +1,2 @@
-# ML-Projects
-This Repo contains all the ML projects which I have done 
+# Internship
+This repo contains YBI foundation project which is done using sentimental analysis 
